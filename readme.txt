@@ -11,4 +11,4 @@ kubectl run -i --tty load-generator --image=busybox -- /bin/sh
 while true; do wget -q -O- http://nginx-service; done ## to generate load
 while true; do wget -q -O- http://65.0.184.168:31557/; done ## to generate load with nodeport
 
-
+Hello from Feature brnach
